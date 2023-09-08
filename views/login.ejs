@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB TECH</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS Reset*/
+    body {
+        color: blueviolet;
+        background: url('img/img13.png');
+        background-repeat: no-repeat;
+        background-size: 1600px 600px;
+        font-family: 'Baloo Bhai', cursive;
+
+    }
+
+    .left {
+        display: inline-block;
+        /*border: 2px solid red;*/
+        position: absolute;
+        left: 30px;
+        top: 15px;
+
+    }
+
+    .left img {
+        padding: 4px 20px;
+        width: 50px;
+    }
+
+    .left div {
+        line-height: 11px;
+        font: bold;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+
+        margin: 20px auto;
+        /*border: 2px solid greenyellow;*/
+
+
+    }
+
+    .right {
+
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /*border: 2px solid blueviolet;*/
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+    }
+
+    .navbar li a {
+        color: blueviolet;
+        text-decoration: none;
+        padding: 34px 23px;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: blueviolet;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: white;
+        color: blueviolet;
+        padding: 4px 14px;
+        border: 2px solid blueviolet;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .container {
+       /* border: 2px solid yellow;*/
+        margin: 50px 860px;
+        padding: 0px 80px;
+        width: 33%;
+        border-radius: 2px;
+    }
+
+    .form-group input {
+        background-color:whitesmoke;
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px salmon;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+        
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    .objective {
+        /*border: 2px solid yellow;*/
+        position: absolute;
+         top: 100px;
+        margin: 60px 50px;
+         padding: 8px 80px;
+         width: 33%;
+         border-radius: 2px;
+     }
+     .objective h1{
+        text-align: center;
+        color: black;
+     }
+     .objective h2{
+        text-align: center;
+        color:red;
+     }
+     .objective p{
+        /*text-align: center;*/
+        color: black;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/img4.jpg" alt="">
+            <div>JobGenie</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navbar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+       
+
+    </header>
+    <div class="objective">
+        <h1>Join Us! Let's Grow Together</h1>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="password" placeholder="Enter your Password">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <!-- <div class="objective">
+        <h1>Welcome to JobGenie</h1>
+        <h2>Find the job that is perfect for You.....</h2>
+        <p>JobGenie is a dot com business with the heart of dot org. We are a technology company on a mission to equip students with relevant skills & practical exposure to help them get the best possible start to their careers. Imagine a world full of freedom and possibilities.</p>
+    </div> -->
+
+</body>
+
+</html>
